@@ -1,0 +1,134 @@
+body, html{
+	height: 100%;
+}
+
+/* NAVIGATION */
+
+nav{
+	background-color: #5a4b42;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button), .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button), .top-bar, .top-bar-section ul, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button), .top-bar-section .right .has-form{
+	background-color: #5a4b42;
+}
+
+
+.has-form .button{
+	background-color: #6acce0
+}
+
+.has-form .button:hover{
+	background-color: #698c80;
+}
+
+.left-off-canvas-menu{
+	background-color: #5a4b42;
+}
+
+
+.top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button):hover{
+	background-color: #698c80;
+} 
+
+.off-canvas-list li a:hover{
+	background-color: #698c80;
+}
+
+
+
+/* HERO */
+
+
+.hero{
+	background-color: #cfe6bb;
+}
+.hero .columns{
+	padding: 3em 0;
+	text-align: center;
+}
+
+
+
+
+/* CONTENT */
+
+
+
+h1{
+	font-family: 'Libre Baskerville', serif;
+	color: #6acce0;
+}
+
+h2{
+	font-family: 'Libre Baskerville', serif;
+	color: #6acce0;
+}
+
+h3{
+	font-family: 'Raleway', sans-serif;
+	color: #9ad6cc;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.home-main{
+	padding: 3em 0;
+}
+
+
+.links ul{
+	list-style: none;
+}
+.links li{
+	display: inline-block;
+	padding: 0.3em;
+}
+
+
+/*
+
+a{
+	background-color: #cfe6bb;
+}
+
+a:hover{
+	background-color: #698c80;
+}
+
+a:active{
+	background-color: #a3c9b7;
+}
+ 
+*/
+
+/* LOG IN FORM */
+
+form{
+	padding: 3em 0;
+}
+
+
+
+
+/* FOOTER */
+
+.footer{
+  background-color: #6acce0;
+  width: 100%;
+  bottom: 0;
+  
+}
+
+
+footer .fa{
+	padding: 0.5em 0;
+}
+
+footer ul{
+	padding: 0.5em 0;
+	list-style: none;
+}
+
+
