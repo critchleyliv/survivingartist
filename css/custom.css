@@ -40,13 +40,29 @@ nav{
 
 
 .hero{
-	background-color: #cfe6bb;
+	background-image: url(../img/brushes.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center 75%;
 }
-.hero .columns{
-	padding: 3em 0;
-	text-align: center;
+.layer{
+	background-color: rgba(163,201,183, 0.7);
 }
 
+.hero .columns{
+	padding: 3em 0;
+	
+}
+
+.hero h1{
+	font-size: 3em;
+	color: white;
+	-webkit-text-stroke: 0.5px #5a4b42;
+}
+
+.hero h3{
+	color: #5a4b42;
+}
 
 
 
