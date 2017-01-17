@@ -4,36 +4,19 @@ body, html{
 
 /* NAVIGATION */
 
-nav{
-	background-color: #5a4b42;
-}
 
-.top-bar-section li:not(.has-form) a:not(.button), .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button), .top-bar, .top-bar-section ul, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button), .top-bar-section .right .has-form{
-	background-color: #5a4b42;
-}
-
-
-.has-form .button{
-	background-color: #6acce0
-}
-
-.has-form .button:hover{
-	background-color: #698c80;
-}
-
-.left-off-canvas-menu{
+nav, .tab-bar, .menu-icon, .left-off-canvas-menu, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button), .top-bar, .top-bar-section ul, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button), .top-bar-section .right .has-form{
 	background-color: #5a4b42;
 }
 
 
-.top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button):hover{
+.has-form .button, nav li .active{
+	background-color: #6acce0;
+}
+
+.off-canvas-list li a:hover, .has-form .button:hover, .top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button):hover{
 	background-color: #698c80;
 } 
-
-.off-canvas-list li a:hover{
-	background-color: #698c80;
-}
-
 
 
 /* HERO */
@@ -89,35 +72,42 @@ p{
 	font-family: 'Open Sans', sans-serif;
 }
 
-.home-main{
+.main-content{
 	padding: 3em 0;
 }
 
 
+.main-content a{
+	color: #6acce0;
+}
+
+
+.breadcrumbs{
+	background-color: rgba(207, 230, 187, 0.5);
+}
+
+
+.breadcrumbs a{
+	color: #698c80;
+}
+
+.breadcrumbs .current a{
+	color: #a3c9b7;
+}
+
 .links ul{
 	list-style: none;
 }
+
+
 .links li{
 	display: inline-block;
 	padding: 0.3em;
 }
 
-
-/*
-
-a{
-	background-color: #cfe6bb;
+.button{
+	background-color: #6acce0;
 }
-
-a:hover{
-	background-color: #698c80;
-}
-
-a:active{
-	background-color: #a3c9b7;
-}
- 
-*/
 
 /* LOG IN FORM */
 
@@ -131,20 +121,27 @@ form{
 /* FOOTER */
 
 .footer{
-  background-color: #6acce0;
+  background-color: #a3c9b7;
   width: 100%;
   bottom: 0;
-  
-}
+ }
 
 
 footer .fa{
-	padding: 0.5em 0;
+	padding-top: 0.3em;
+	width: 23%;
+	padding-left: 2%;
 }
 
 footer ul{
-	padding: 0.5em 0;
+	padding-top: 0.3em;
 	list-style: none;
 }
 
+footer a{
+	color: #5a4b42;
+}
 
+footer a:hover{
+	color: #698c80;
+}
