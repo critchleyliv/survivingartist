@@ -129,7 +129,7 @@ form{
 
 footer .fa{
 	padding-top: 0.3em;
-	width: 23%;
+	width: 22%;
 	padding-left: 2%;
 }
 
@@ -145,3 +145,11 @@ footer a{
 footer a:hover{
 	color: #698c80;
 }
+
+footer h3{
+	text-align: center;
+}
+
+
+
+
