@@ -7,7 +7,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Print Shops | The Surviving Artist</title>
+    <title>Michael's | The Surviving Artist</title>
 
     <link rel="stylesheet" href="../css/foundation.css" />
     <link rel="stylesheet" href="../css/custom.css" />
@@ -49,8 +49,8 @@
                 </li>
                 <li><a href="index.html">Resources</a>
                  <ul>
-                    <li><a href="stores.html">Art Supply Stores</a></li>
-                    <li   class="active"><a href="printshops.html">Print Shops</a></li>
+                    <li class="active"><a href="stores.html">Art Supply Stores</a></li>
+                    <li><a href="printshops.html">Print Shops</a></li>
                     <li><a href="workspaces.html">Workspaces</a></li>
                   </ul>
                 </li>
@@ -86,8 +86,8 @@
           </li>
           <li class="has-dropdown"><a href="index.html">Resources</a>
            <ul class="dropdown">
-              <li><a href="stores.html">Art Supply Stores</a></li>
-              <li class="active"><a href="printshops.html">Print Shops</a></li>
+              <li class="active"><a href="stores.html">Art Supply Stores</a></li>
+              <li><a href="printshops.html">Print Shops</a></li>
               <li><a href="workspaces.html">Workspaces</a></li>
             </ul>
           </li>
@@ -133,34 +133,58 @@
 
 
 
-
-    <ul class="breadcrumbs">
+<ul class="breadcrumbs">
       <li><a href="../index.html">Home</a></li>
       <li><a href="index.html">Resources</a></li>
-      <li class="current"><a href="printshops.html">Print Shops</a></li>
+      <li><a href="stores.html">Art Supply Stores</a></li>
+      <li class="current"><a href="michaels.html">Michael's</a></li>
     </ul>
+
+
 
 
 <div class="main-content">
-  <div class="row">
-    <div class="small-12 columns">
+    <div class="row links">
+      <div class="medium-6 columns">
+        <h3>Michael's</h3>
 
-     <ul class="small-block-grid-2 medium-block-grid-3">
+        <ul>
+          <li><a href="http://www.providence-jerrys.com/home/"><i class="fa fa-hand-o-up fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href="tel:1-847-555-5555"><i class="fa fa-phone-square fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/JerrysArtarama/"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></li>
+        </ul>
 
-      <li> <a href="staples.html"><h3>Staples</h3> <img src="../img/fpoimage.png">  </li>
+        <p>Jerry's Artarama of Providence offers the greatest selection of world-class art supply brands that artists love!</p>
+        <p>653 N Main St, Providence, RI 02904</p>
+        <p>(401) 331-4530</p>
+      </div>
+     
+      <div class="medium-6 columns">
+        
 
-      <li> <a href="man.html"><h3>Minute Man Press</h3> <img src="../img/fpoimage.png">  </li>
+        <div id="map">
+        </div>
+        <script>
+      function initMap() {
+        var uluru = {lat: 41.797676, lng: -71.333864};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbQnrj1v7VMNr7NL9LIt_foJFfYvugyWg&callback=initMap">
+    </script>
 
-      <li> <a href="as220.html"><h3>AS220</h3> <img src="../img/fpoimage.png">  </li>
 
-      <li> <a href="colorcompany.html"><h3>The Color Company</h3> <img src="../img/fpoimage.png">  </li>
-      
-      <li> <a href="broadway.html"><h3>Broadway Print</h3> <img src="../img/fpoimage.png">  </li>
+      </div>
 
-    </ul>
-
-     </div> 
-  </div>
+    </div>
 </div>
 
 
@@ -237,8 +261,8 @@
     
 
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
+    <script src="../js/vendor/jquery.js"></script>
+    <script src="../js/foundation.min.js"></script>
     <script>
       $(document).foundation();
     </script>

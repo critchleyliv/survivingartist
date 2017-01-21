@@ -18,9 +18,21 @@ nav, .tab-bar, .menu-icon, .left-off-canvas-menu, .top-bar-section li:not(.has-f
 	background-color: #698c80;
 } 
 
+nav, nav aside a{
+	font-family: 'Raleway', sans-serif;
+}
+
+
 
 /* HERO */
 
+
+.hero #tsa{
+	width: 70%;
+	display: block;
+	margin: left;
+	fill: #5a4b42;
+}
 
 .hero{
 	background-image: url(../img/brushes.jpeg);
@@ -41,6 +53,7 @@ nav, .tab-bar, .menu-icon, .left-off-canvas-menu, .top-bar-section li:not(.has-f
 	font-size: 3em;
 	color: white;
 	-webkit-text-stroke: 0.5px #5a4b42;
+	padding-top: 0.3em;
 }
 
 .hero h3{
@@ -81,6 +94,9 @@ p{
 	color: #6acce0;
 }
 
+.main-content a:hover{
+	color: #698c80;
+}
 
 .breadcrumbs{
 	background-color: rgba(207, 230, 187, 0.5);
@@ -103,6 +119,7 @@ p{
 .links li{
 	display: inline-block;
 	padding: 0.3em;
+	font-family: 'Raleway', sans-serif;
 }
 
 .button{
@@ -145,6 +162,7 @@ footer ul{
 
 footer a{
 	color: #5a4b42;
+	font-family: 'Raleway', sans-serif;
 }
 
 footer a:hover{
@@ -155,6 +173,12 @@ footer h3{
 	text-align: center;
 }
 
+.footer #tsa{
+	padding-top: 0.3em;
+	display: block;
+	margin: auto;
+	fill: #5a4b42;
+}
 
 
 

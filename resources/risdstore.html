@@ -7,7 +7,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Print Shops | The Surviving Artist</title>
+    <title>Blick's Art Materials | The Surviving Artist</title>
 
     <link rel="stylesheet" href="../css/foundation.css" />
     <link rel="stylesheet" href="../css/custom.css" />
@@ -49,8 +49,8 @@
                 </li>
                 <li><a href="index.html">Resources</a>
                  <ul>
-                    <li><a href="stores.html">Art Supply Stores</a></li>
-                    <li   class="active"><a href="printshops.html">Print Shops</a></li>
+                    <li class="active"><a href="stores.html">Art Supply Stores</a></li>
+                    <li><a href="printshops.html">Print Shops</a></li>
                     <li><a href="workspaces.html">Workspaces</a></li>
                   </ul>
                 </li>
@@ -86,8 +86,8 @@
           </li>
           <li class="has-dropdown"><a href="index.html">Resources</a>
            <ul class="dropdown">
-              <li><a href="stores.html">Art Supply Stores</a></li>
-              <li class="active"><a href="printshops.html">Print Shops</a></li>
+              <li class="active"><a href="stores.html">Art Supply Stores</a></li>
+              <li><a href="printshops.html">Print Shops</a></li>
               <li><a href="workspaces.html">Workspaces</a></li>
             </ul>
           </li>
@@ -133,35 +133,67 @@
 
 
 
-
-    <ul class="breadcrumbs">
+<ul class="breadcrumbs">
       <li><a href="../index.html">Home</a></li>
       <li><a href="index.html">Resources</a></li>
-      <li class="current"><a href="printshops.html">Print Shops</a></li>
+      <li class="current"><a href="stores.html">Art Supply Stores</a></li>
     </ul>
+
+
 
 
 <div class="main-content">
-  <div class="row">
-    <div class="small-12 columns">
+    <div class="row links">
+      <div class="medium-6 columns">
+        <h2>Heading</h2>
 
-     <ul class="small-block-grid-2 medium-block-grid-3">
+        <h3>Second Heading</h3>
 
-      <li> <a href="staples.html"><h3>Staples</h3> <img src="../img/fpoimage.png">  </li>
+        <ul>
+          <li><a href="https://twitter.com/">Link</a></li>
+          <li><a href="https://www.facebook.com/">Link</a></li>
+          <li><a href="https://www.google.com/maps">Link</a></li>
+        </ul>
 
-      <li> <a href="man.html"><h3>Minute Man Press</h3> <img src="../img/fpoimage.png">  </li>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+     
+      <div class="medium-6 columns">
+        
 
-      <li> <a href="as220.html"><h3>AS220</h3> <img src="../img/fpoimage.png">  </li>
+        <div id="map">
+        </div>
+        <script>
+      function initMap() {
+        var uluru = {lat: 41.851371, lng: -71.440282};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbQnrj1v7VMNr7NL9LIt_foJFfYvugyWg&callback=initMap">
+    </script>
 
-      <li> <a href="colorcompany.html"><h3>The Color Company</h3> <img src="../img/fpoimage.png">  </li>
-      
-      <li> <a href="broadway.html"><h3>Broadway Print</h3> <img src="../img/fpoimage.png">  </li>
 
-    </ul>
+      </div>
 
-     </div> 
-  </div>
+    </div>
 </div>
+
+
+</div> <!--Inner wrap-->
+  </div> <!--End off canvas -->
 
 
 </div> <!--Inner wrap-->
