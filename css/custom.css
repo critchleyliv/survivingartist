@@ -129,6 +129,26 @@ p{
 	background-color: rgba(207, 230, 187, 0.5);
 }
 
+.faq .row{
+	padding-bottom: 3em;
+}
+
+label{
+	font-family: 'Raleway', sans-serif;
+}
+
+.faq label {
+	color: #6acce0;
+}
+
+.faq a{
+	color: #fff;
+}
+.faq textarea{
+	height: 10em;
+}
+
+
 .breadcrumbs{
 	background-color: rgba(207, 230, 187, 0.5);
 }
