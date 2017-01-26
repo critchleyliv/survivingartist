@@ -120,6 +120,10 @@ p{
 	list-style: none;
 }
 
+.main-content img{
+	width: 100%;
+}
+
 .home-main .fa{
 	color: #6acce0;
 	margin: auto;
