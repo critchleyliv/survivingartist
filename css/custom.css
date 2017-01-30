@@ -123,6 +123,11 @@ p{
 .main-content img{
 	width: 100%;
 }
+
+.heading{
+	border-bottom: thick solid #5a4b42;
+}
+
 .home-main #map{
 	margin-bottom: 5%;
 }
@@ -219,18 +224,21 @@ form{
 
 /* FOOTER */
 
-.footer{
+footer{
   background-color: #a3c9b7;
   width: 100%;
   bottom: 0;
  }
 
+.footer{
+	padding-top: 1em;
+}
 
 footer .fa{
-	padding-top: 0.3em;
-	width: 22%;
-	padding-left: 2%;
+	margin: right;
 }
+
+
 
 footer ul{
 	padding-top: 0.3em;
@@ -247,7 +255,8 @@ footer a:hover{
 }
 
 footer h3{
-	text-align: center;
+	text-align: right;
+	margin: left;
 }
 
 .footer #tsa{
