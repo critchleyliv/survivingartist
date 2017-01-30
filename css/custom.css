@@ -42,10 +42,10 @@ nav, nav aside a{
 
 
 .hero{
-	background-image: url(../img/crafts.jpg);
+	background-image: url(../img/pallet.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center 75%;
+	background-position: top 60% left 90%;
 }
 .layer{
 	background-color: rgba(163,201,183, 0.7);
@@ -155,6 +155,10 @@ p{
 	background-color: rgba(207, 230, 187, 0.5);
 }
 
+.contact ul{
+	padding-top: 3em;
+}
+
 .faq .row{
 	padding-bottom: 3em;
 }
@@ -235,6 +239,8 @@ footer{
 }
 
 footer .fa{
+	width: 22%;
+	padding: 3%;
 	margin: right;
 }
 
@@ -255,8 +261,8 @@ footer a:hover{
 }
 
 footer h3{
-	text-align: right;
-	margin: left;
+	text-align: center;
+	margin: auto;
 }
 
 .footer #tsa{
